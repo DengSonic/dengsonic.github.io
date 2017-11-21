@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Research Statement | Publications</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mainwrapper">
+
+  <div class="maintitle"><span class="maintitle">Publications</span></div>
+
+  <div class="floatingmenu">
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="index.html">Home</a></span>
+    </p>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="education.html">CV</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="large"><a href="publications.html">Publications</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="award.html">Awards</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="https://www.researchgate.net/profile/Xi_Deng6">Link for Researchgate</a></span><br>
+  </div>
+
+  <div class="maintext">
+
+    <!------------------------------------------------------------------------------------>
+    <!-- -->
+    <!------------------------------------------------------------------------------------>
+    <p style="position:relative; left: -12em; margin-bottom: 1.5em">
+      <span style="font-size: 12pt">
+	<a name="publications">Publications</a></span></p>
+
+    <p style="margin-left:-12em; margin-right:2em;">
+
+    <p style="margin-left:-12em; margin-right:2em;">
+      <a href=https://link.springer.com/article/10.1007/s10915-017-0392-0>
+      <b>Deng, X.</b>, Sun, Z., Xie, B., Yokoi, K., Chen, C. and Xiao, F. A Non-oscillatory Multi-Moment Finite Volume Scheme with Boundary Gradient Switching.
+       <i>Journal of Scientific Computing</i> pp.1-23. (2017)</a>
+    </p>
+
+    <p style="margin-left:-12em; margin-right:2em;">
+      <a href=https://doi.org/10.2514/1.J055581>
+      <b>Deng, X.</b>, Xie, B. and Xiao, F., Multi-Moment Finite Volume Solver for Euler Equations on Unstructured Grids.
+      <i> AIAA Journal.</i> (2017)</a>
+    </p>
+
+    <p style="margin-left:-12em; margin-right:2em;">
+      <a href=https://doi.org/10.1016/j.compfluid.2017.05.007>
+      <b>Deng, X.</b>, Xie, B. and Xiao, F., A finite volume multi-moment method with boundary variation diminishing principle for Euler equation on three-dimensional hybrid unstructured grids.
+       <i>Computers & Fluids,</i> 153, pp.85-101.(2017)</a>
+    </p>
+
+    <p style="margin-left:-12em; margin-right:2em;">
+      <a href=https://doi.org/10.1016/j.jcp.2017.01.043>
+Xie, B., <b>Deng, X.</b>, Sun, Z. and Xiao, F., A hybrid pressure–density-based Mach uniform algorithm for 2D Euler equations on unstructured grids by using multi-moment finite volume method. 
+ <i>Journal of Computational Physics,</i> 335, pp.637-663.(2017)</a>
+    </p>
+    
+        <p style="margin-left:-12em; margin-right:2em;">
+      <a href=https://doi.org/10.4208/cicp.OA-2016-0117>
+Li, Q., Omar, S., <b>Deng, X.</b> and Xiao, F., Constrained interpolation profile conservative semi-Lagrangian scheme based on third-order polynomial functions and essentially non-oscillatory (CIP-CSL3ENO) scheme.
+ <i>Communications in Computational Physics,</i> (2017)</a>
+    </p>
+
+        <p style="margin-left:-12em; margin-right:2em;">      
+<b>Deng, X.</b>, Xie, B., Xiao, F. and Teng, H.H., New accurate and efficient method for stiff detonation capturing. 
+<i>AIAA Journal.</i>(Submitted)
+    </p>
+
+       <p style="margin-left:-12em; margin-right:2em;">      
+Jin, P., <b>Deng, X.</b>, and Xiao, F., A direct ALE multi-moment finite volume scheme for the compressible Euler equations.
+<i>Communications in Computational Physics.</i> (In Revision)
+    </p>
+
+        <p style="margin-left:-12em; margin-right:2em;">      
+<b>Deng, X.</b>, Xie, B. and Xiao, F., A note on practical versions of boundary variation diminishing (BVD) algorithm to capture discontinuous solutions.
+ <i>Applied Mathematics and Computation.</i> (Submitted)
+    </p>
+
+        <p style="margin-left:-12em; margin-right:2em;">      
+<b>Deng, X.</b>, Ina, B., Xie, B., Shyue, K.M. and Xiao, F., 2017. Implementation of BVD (boundary variation diminishing) algorithm in simulations of compressible multiphase flows.
+ <i>Journal of Computational Physics.</i> (Submitted)
+    </p>
+
+
+    <p style="margin-bottom: 0em; margin-top: 4em; margin-left:8.5em;">
+      <span class="small">
+	<span class="gray"><a href="index.html">Home</a></span>
+    </p>
+</div> 
+</div> 
+</body>
+</html>
