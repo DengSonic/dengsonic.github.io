@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Research Statement | Awards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mainwrapper">
+
+  <div class="maintitle"><span class="maintitle">Publications</span></div>
+
+  <div class="floatingmenu">
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="index.html">Home</a></span>
+    </p>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="education.html">CV</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="publications.html">Publications</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="large"><a href="award.html">Awards</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="https://www.researchgate.net/profile/Xi_Deng6">Link for Researchgate</a></span><br>
+  </div>
+
+  <div class="maintext">
+
+    <!------------------------------------------------------------------------------------>
+    <!-- -->
+    <!------------------------------------------------------------------------------------>
+    <p style="position:relative; left: -12em; margin-bottom: 1.5em">
+
+    <p style="margin-left:-12em; margin-right:2em;">
+
+        <p style="margin-left:-12em; margin-right:2em;">      
+     <span class="blue">></span>Japanese Government (Monbukagakusho:MEXT) Scholarship, 2013-2018
+    </p>
+    
+            <p style="margin-left:-12em; margin-right:2em;">      
+    <span class="blue">></span> Best Collaboration Award of The Fourth International Education Forum on Environment and Energy Science, Hawaii, USA, 2015
+    </p>
+    
+                <p style="margin-left:-12em; margin-right:2em;">      
+     <span class="blue">></span>Leading Program Educational Research Fund, 2016-2017
+    </p>
+
+                <p style="margin-left:-12em; margin-right:2em;">      
+    <span class="blue">></span> Best Collaboration Award of The Fifth International Education Forum on Environment and Energy Science, San Diego, USA, 2016
+    </p>
+
+    <p style="margin-bottom: 0em; margin-top: 4em; margin-left:8.5em;">
+      <span class="small">
+	<span class="gray"><a href="index.html">Home</a></span>
+    </p>
+</div> 
+</div> 
+</body>
+</html>
