@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Research Statement | CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mainwrapper">
+
+  <div class="maintitle"><span class="maintitle">CV</span></div>
+  <div class="menu">
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="index.html">Home</a></span>
+    </p>
+    <p style="margin-bottom: 2.1em;">
+      <span class="large"><a href="education.html">CV</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="publications.html">Publications</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="award.html">Awards</a></span><br>
+    <p style="margin-bottom: 2.1em;">
+      <span class="gray"><a href="https://www.researchgate.net/profile/Xi_Deng6">Link for Researchgate</a></span><br>
+  </div>
+
+  <div class="maintext">
+
+    <p style="margin-left:-11em; margin-bottom:2em">
+      <embed src="./docs/CV.pdf" width="700" height="600" type='application/pdf'>
+    </p>
+	
+    <p style="margin-bottom: 0em; margin-top: 4em; margin-left:8.5em;">
+      <span class="small">
+	<span class="gray"><a href="index.html">Home</a></span>
+    </p>
+</div> 
+</div> 
+</body>
+</html>
