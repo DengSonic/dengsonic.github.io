@@ -16,19 +16,19 @@
    <div class="menu">
     <p style="margin-bottom: 1.em">
     <a href="index.html" title="Return to the homepage" id="logo">
-      <img src=" " alt="picture of me" width="100"/></a></p>
+      <img src="./pics/newD.jpg " alt="picture of me" width="180"/></a></p>
     <p style="margin-bottom: 1.5em;">
-    <span class="blue">DENG XI, Ph.D. student</span></p>    
+    <span class="blue">DENG XI, Ph.D. Candidate</span></p>    
     <span class="blue">Tokyo Institute of Technology</span></p> 
     <span class="blue">Email:deng.xi98@gmail.com</span></p> 	
     <p style="margin-bottom: 1.5em;">
-      <span class="large"><a href="about.html">Education</a></span><br>
+      <span class="large"><a href="education.html">CV</a></span><br>
     <p style="margin-bottom: 1.5em;">
-      <span class="large"><a href="work.html">Publications</a></span><br>
+      <span class="large"><a href="publications.html">Publications</a></span><br>
     <p style="margin-bottom: 1.5em;">
-      <span class="large"><a href="gallery.html">Awards</a></span><br>
+      <span class="large"><a href="award.html">Awards</a></span><br>
     <p style="margin-bottom: 1.5em;">
-      <span class="large"><a href="links.html">Links</a></span><br>
+      <span class="large"><a href="https://www.researchgate.net/profile/Xi_Deng6">Link for Researchgate</a></span><br>
   </div>
   
   
@@ -36,56 +36,81 @@
 
   <div class="maintext">
     <p>
-    Numerical simulations for compressible multi-components flows involve many difficults.<br>
-    On the one hand, high resolution schemes are needed to resolve delicate flow structures <br>  
-    such as Kelvin-Helmholtz instabilities and cell-like structures in supersonic flow. <br> 
-    On the another hand, most high resolution schemes may fail to capture sharp discontinuous <br>
-    solutions robustly. Thus, high-fidelity solvers, which are accurate and robust, are highly demanded.<br>
-    At the same time, the concept of high performance computing (HPC) will be implemented with GPU.</p>  
+    Numerical simulations for compressible multi-components flows involve many difficults.
+    On the one hand, high resolution schemes are needed to resolve delicate flow structures   
+    such as Kelvin-Helmholtz instabilities and cell-like structures in supersonic flow.  
+    On the another hand, most high resolution schemes may fail to capture sharp discontinuous 
+    solutions robustly. Thus, high-fidelity solvers, which are accurate and robust, are highly demanded.
+    At the same time, the concept of high performance computing (HPC) will be implemented with GPU. </p> 
      
-    <span class="graySub">Shock Water Interaction</span></p> 
+    <p> 
+    <span class="graySub">-Shock Water Interaction</span></p>    
+    <p>
+    A right moving Mach 6 shock in the air interacts with a water cylinder. The simulation may fail with some high resolution schemes such as WENO 
+    because density becomes negative. The present result is calculated by proposed MUSCL-THINC-BVD.
+     </p>       
    
-    
-   
-    <p style="margin-bottom:2em;">
-      <video width="380" controls autoplay loop>
-    	<source src="./video/shckdrp/density.mp4" type="video/mp4">
-    	  <source src="./video/shckdrp/density.ogg" type="video/ogg">
-    	    <object data="./video/shckdrp/density.mp4" width="320" height="240">
-    	      <embed src="./video/shckdrp/density.swf" width="320" height="240">
+      <p style="margin-bottom:2em;">
+      <video width="600" controls autoplay loop>
+    	<source src="./video/swi.mp4" type="video/mp4">
+    		<source src="./video/swi.ogg" type="video/ogg">
+    	    <object data="./video/swi.mp4" width="700" height="500">
+    	      <embed src="./video/swi.mp4" width="700" height="500">
     	    </object>
       </video>
     </p>
+    
+         <p> 
+    <span class="graySub">-High Resolution Schemes</span></p> 
 
-    <p style="margin-bottom:1em;">
-      My research interests lie at the intersection of three fields:</p>
-    <p>
-      <span class="blue">></span> &nbsp;High-performance computing<br>
-      <span class="white">></span> &nbsp;<span class="smallgray">Multi-GPU implementations through MPI</span></p>
-    <p>
-      <span class="blue">></span> &nbsp;High order numerical methods<br>
-      <span class="white">></span> &nbsp;<span class="smallgray">Discontinuous Galerkin method</span></p>
-    <p>
-      <span class="blue">></span> &nbsp;Fluid dynamics<br>
-      <span class="white">></span> &nbsp;<span class="smallgray">shocks, interfacial instabilities, turbulence, multi-material mixing,</span><br>
-      <span class="white">></span> &nbsp;<span class="smallgray">multiphase flows (cavitation, bubble  and droplet dynamics),</span><br>
-      <span class="white">></span> &nbsp;<span class="smallgray">supernovae explosions, fusion energy</span></p>
+       <p>
+    As benchmark tests, double Mach reflection and Mach 3 wind tunnel tests are used to show the high resolution property of the developed solver.
+     </p> 
+    	
 
-    <p style="margin-bottom: 4em;">
-      I am always looking for new collaborations and ideas.<br>
-      Please feel welcome to <a href="contact.html">contact me!</a></p>
+  <p>
+    <img class="left" src="./pics/highResolution.jpg" alt="setup" height="200"></p>
+
+
+         <p> 
+    <span class="graySub">-3D Aircraft Simulation</span></p> 
+ 
+        <p>
+    The schemes are having been extended to unstructured grids. 3D aircraft is simulated with proposed VPM-BVD scheme.
+     </p> 
+ 
+ 
+   <p>
+    <img class="left" src="./pics/3Dair.jpg" alt="setup" height="250"></p>
+   
+            <p> 
+    <span class="graySub">-3D Shock Helium Bubble Interaction </span></p> 
+    	
+    	        <p>
+    The current 3D simulation is conducted with single GPU. In future, the solver will be extended to multi-GPU to realize high performance computing.
+     </p> 
+    	
+   <p>
+    <img class="left" src="./pics/3Dbubble.jpg" alt="setup" height="350"></p>
+ 
+
+         <p> 
+    <span class="graySub">-Stiff Detonation Waves</span></p> 
+        <p>
+    The developed solver show promising results to solve stiff detnoation waves. WENO scheme can not resolve correct detonation front due to the lack of enough
+    spatial resolutions. However, the proposed MUSCL-THINC-BVD scheme can capture correct position.
+     </p>  
+ 
+ 
+   <p>
+    <img class="left" src="./pics/detonation.jpg" alt="setup" height="300"></p>
       
     <p style="margin-bottom: 0em; margin-left:18.5em;">
       <span class="small">
 	<span class="black"><a href="index.html">Home</a></span><span class="blue"> &nbsp;|&nbsp; </span>
-	<span class="gray"><a href="contact.html">Contact</a></span>
-	<span class="blue"> &nbsp;|&nbsp; </span>
-	<span class="gray"><a href="./docs/cv.pdf" target="_blank">CV</a></span>
-      </span>
     </p>
     
 
 </div> 
 </body>
 </html>
-
