@@ -1,21 +1,21 @@
 body {
-    background-color: #666666;
+    background-color: #778899;
     font-family: "lucida grande", "lucida sans", verdana, sans-serif;
     color: black;
-    font-size: 10pt;
+    font-size: 12pt;
     line-height: 1.6em; }
 
 
 div.mainwrapper {
     position: relative;
     display: block;
-    width: 64.0em;
+    width: 75.0em;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: -8px;
     margin-bottom: 0px;
-    background-color: #FFFFFF;
+    background-color: #F0FFFF;
 }
   
 p {
@@ -95,7 +95,7 @@ div.floatingmenu {
     position: fixed;
     top: 16.0em;
     left: 50%;
-    margin-left:-27.2em; /*64em is the width of the mainwrapper. -32em will set the menu against the edge. +4.8em to offset from edge*/
+    margin-left:-32.2em; /*64em is the width of the mainwrapper. -32em will set the menu against the edge. +4.8em to offset from edge*/
 }
 
 div.maintext { 
@@ -134,10 +134,13 @@ IMG.centered {
 /* Fonts */
 
 span.maintitle {
-    font-size: 16pt; }
+	  font-style: italic;
+    font-size: 22pt;
+    color: #4682B4; }
   
 span.subtitle {
-    font-size: 12pt;
+	  font-style: italic;
+    font-size: 16pt;
     color: #7F7F7F; }
   
 span.subttitle {
@@ -156,6 +159,11 @@ span.small {
   
 span.gray {
     color: #7F7F7F }
+
+span.graySub {
+	  font-style: italic;
+	  font-size: 12pt;
+    color: #7F7F7F }    
   
 span.smallgray {
     font-size: 8pt;
